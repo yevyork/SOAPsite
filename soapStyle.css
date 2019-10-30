@@ -1,0 +1,301 @@
+* {
+    font-family: "Lao Sangam MN", Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    /* outline: 1px solid; */
+}
+ 
+body {
+    overflow-x: auto;
+}
+
+/* Nav Styles */
+
+.navContainer {
+    width: 100%;
+    max-width: 960px;
+    /* height: 105px; */
+    
+    /* border-color: #707070; */
+    /* margin: 0; */
+}
+nav {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 10px;
+    display: flex;
+    justify-content: right;
+    }
+
+nav a {
+    background: #FFFFFF;
+    text-decoration: none;
+    color: #707070;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.3px;
+}
+
+
+.homebutton {
+    letter-spacing: 6px;
+    /* text-align: left; */
+    /* justify-content: flex-start; */
+    max-width: 100px;
+    /* bottom: 10px; */
+    margin: 5px 5px;
+    padding: 3px;
+
+    }
+
+.bar1 {
+    text-align: right;
+    border: none;
+    margin-left: 0;
+    justify-content: flex-end;
+    /* flex-basis: 100; */
+    /* float: right; */
+    }
+
+
+.bar1:hover {
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+/* Main Page Styles */
+
+main {
+    /* background: #dddddd; */
+}
+
+.herobox {
+    background-image: url(main-img/hero-lavender-array.jpg);
+    margin: 0 auto;
+    padding: 175px;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+
+    /* display: flex;
+    flex-direction: column; */
+
+
+.box {
+    display: flex;
+    background-color: hsla(77, 12%, 11%, 0.781);
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    justify-content: space-evenly;
+    /* outline: 2px solid black; */
+    color: #FFFFFF;
+    
+    
+    /* outline: 2px solid black; */
+
+}
+
+.vince {
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width: 100%;
+
+}
+
+
+.africansoap {
+    background-image: url(main-img/african-soap.jpg);
+    height: 400px;
+    /* margin: 20px; */
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.world {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    background-image: url(main-img/bubbleplanet.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin: 0 auto;
+    height: 500px;
+    width: 100%;
+    
+}
+
+
+
+.soapmaker {
+    background-image: url(main-img/soapmaker.jpg);
+    width: 100%;
+    height: 500px;
+    
+
+}
+.makerbox {
+    width: 100%;
+    height: 100%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    border: 2px solid red;
+    font-size: 14px;
+    
+}
+
+footer ul  {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/* Text Styles */
+
+.herotext {
+    /* display: inline-block; */
+    position: relative;
+    color: #433E3E;
+    font-weight: lighter; 
+    /* line-height: 150px; */
+    font-size: 23px;
+    margin: initial;
+    padding: 150px 0px 0 200px;
+    /* text-shadow: 0.5px 0.5px rgb(41, 34, 34, 0.00005); */
+    }
+
+.minihero {
+    position: relative;
+    color: #433E3E;
+    margin: initial;
+    padding: 20px 0 0 200px;
+    font-size: 15px;
+    /* text-shadow: 0.5px 0.5px rgb(41, 34, 34, 0.3); */
+}
+
+.collectionname  {
+    position: relative;
+    font-size: 23px;
+    margin: 40px 0px 450px 20px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.productname {
+    font-size: 13px;
+    bottom: -420px;
+    left: -300px;
+    text-align: center;
+    
+}
+
+.description {
+    display: block;
+    position: relative;
+    font-size: 13px;
+    /* object-position: 50px 50px; */
+    bottom: 70px;
+    left: 50px;
+    /* white-space: nowrap;  */
+}
+
+.productname .description {
+    text-justify: distribute-all-lines;
+    text-align: center;
+    position: relative;
+}
+   
+
+.articletitle {
+        display: inline-block;
+        position: relative;
+        color: #433E3E;
+        font-weight: lighter; 
+        text-align: center;
+        /* line-height: 150px; */
+        font-size: 28px;
+        margin: 400px 20px 100px 100px;
+}
+
+.articledescription {
+    display: block;
+    color: #433E3E;
+    margin: 0px 20px 500px 400px;
+    font-size: 14px;
+    /* text-justify: distribute-all-lines; */
+}
+
+
+
+/*styles page */
+
+.worldtext {
+    position: relative;
+    text-transform: uppercase;
+    text-justify: distribute-all-lines;
+    text-align: center;
+    font-size: 26px;
+    color: #ffffff;
+    bottom: 120px;
+    letter-spacing: 1.5px;
+
+}
+
+.worldtext1 {
+    position: relative;
+    text-transform: uppercase;
+    text-justify: distribute-all-lines;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    bottom: 130px;
+    letter-spacing: 1px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pic {
+    position: initial;
+    margin: 10px;
+    padding: 2px; 
+    width: 250px;
+    height: 250px;
+}
+.pic:hover {
+    border: 0.5px solid gray;
+}
+/* magnifying glass */
+
+.search {
+    
+    width: 14px;
+    height: 14px;
+    padding: 11px 10px;
+}
