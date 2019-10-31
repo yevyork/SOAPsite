@@ -123,6 +123,8 @@ nav a {
     font-size: 12px;
     font-weight: 100;
     letter-spacing: 0.3px;
+    text-decoration-color: #ffffff;
+    text-decoration: underline;
 }
 
 
@@ -143,13 +145,15 @@ nav a {
     border: none;
     margin-left: 0;
     justify-content: flex-end;
+    
+
     /* flex-basis: 100; */
     /* float: right; */
     }
 
 
-.bar1:hover {
-    text-decoration: underline;
+nav a:hover {
+    text-decoration-color: #707070;
     /* font-size: 13px; */
 }
 
@@ -379,6 +383,7 @@ font-size: 20px;
     text-align: center;
     font-size: 26px;
     color: #ffffff;
+    margin-top: 40px;
     bottom: 120px;
     letter-spacing: 1.5px;
 
@@ -424,4 +429,23 @@ font-size: 20px;
 
 .search:hover {
     border-bottom: 1px solid #433E3E;
+}
+
+/* mobile */
+@media (max-width: 420px) {
+
+    *{
+        position: relative;
+    }
+    .popcontainer {
+        visibility: hidden;
+    }
+    .navContainer {
+        width: 100vh;
+        height: 30px;
+    }
+    .herobox {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
