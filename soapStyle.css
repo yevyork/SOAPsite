@@ -16,28 +16,24 @@ body {
 p {
     margin-bottom: 40px;
 }
-#popup {
+.popup {
     position: relative;
-    top: 200px;
+    /* top: 200px; */
     width: 500px;
     margin: 0 auto;
     text-align: center;
-    top: -20px;
-    animation: drop 3s ease-in;
-    animation-fill-mode: forwards;
-
 }
 
-#popup .popcontainer {
+.popup .popcontainer {
     background: #FFFFFF;
     padding: 30px;
     position: absolute;
-    top: 50px;
+    top: 100px;
     width: 100%;
     box-sizing: border-box;
 }
 
-#popup input {
+.popup input {
     padding: 10px;
     border-radius: 10px 0 0 10px;
     font-size: 15px;
@@ -56,8 +52,8 @@ button {
 
 .close {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 9px;
+    left: 9px;
     background-color: #707070;
     font-family: Verdana, sans-serif;
     color: #FFFFFF;
@@ -65,21 +61,28 @@ button {
     width: 30px;
     height: 30px;
     text-align: center;
-    border-radius: 11px;
+    border-radius: 20px;
 }
 .close > a {
     position: relative;
     text-decoration: none;
     text-align: center;
-    top: -7px;
-    left: -1px;
+    top: -9px;
+    left: -2.5px;
     color: #FFFFFF;
 }
+
+.popcontainer {
+    animation: drop 3s ease-in forwards;
+    z-index: 2;
+
+}
+
 
 @keyframes drop {
     0% { opacity: 0}
     70% { transform: translateY(700px)};
-    100% { transform: translateY(650px); opacity: 0.2;}
+    100% { transform: translateY(50px); opacity: 0.8;}
 }
 
 /* Nav Styles */
@@ -147,9 +150,6 @@ nav a {
 
 /* Main Page Styles */
 
-main {
-    /* background: #dddddd; */
-}
 
 .herobox {
     background-image: url(main-img/hero-lavender-array.jpg);
@@ -190,7 +190,10 @@ main {
     /* display: flex; */
     /* flex-direction: column; */
     max-width: 100%;
+}
 
+.vince:hover {
+    outline: 2px solid #ffffff;
 }
 
 
