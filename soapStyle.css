@@ -13,9 +13,7 @@ body {
     margin: 10px 0;
 }
 
-p {
-    margin-bottom: 40px;
-}
+
 .popup {
     position: relative;
     /* top: 200px; */
@@ -161,23 +159,21 @@ nav a:hover {
 
 
 .herobox {
+    display: flex;
     background-image: url(main-img/hero-lavender-array.jpg);
-    margin: 0 auto;
-    padding: 175px;
+    height: 500px;
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
 }
 
-
-    /* display: flex;
-    flex-direction: column; */
 .box {
     display: flex;
     flex-direction: column;
-    background-color: hsla(77, 12%, 11%, 0.781);
+    background-image: url(main-img/purplepetals1.jpg);
+    background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    height: 500px;
 
 }
 
@@ -189,7 +185,8 @@ nav a:hover {
     justify-content: space-evenly;
     /* outline: 2px solid black; */
     color: #FFFFFF;
-    
+    height: 300px;
+    /* padding-top: 150px; */
     
     /* outline: 2px solid black; */
 
@@ -266,33 +263,49 @@ footer a {
 
 /* Text Styles */
 
+.herotext .miniherotext {
+    display: inline-block;
+}
 .herotext {
-    /* display: inline-block; */
     position: relative;
     color: #433E3E;
     font-weight: lighter; 
-    /* line-height: 150px; */
+    flex-direction: row;
+    height: 70px;
+    width: 570px;    
     font-size: 23px;
-    margin: initial;
-    padding: 150px 0px 0 200px;
-    /* text-shadow: 0.5px 0.5px rgb(41, 34, 34, 0.00005); */
+    top: 275px;
+    left: 340px;
     }
+/* DONT TOUCH THE HEROTEXT */
 
-.minihero {
+.miniherotext {
     position: relative;
     color: #433E3E;
-    margin: initial;
-    padding: 20px 0 0 200px;
+    height: 30px;
+    width: 300px;
+    top: 350px;
+    right: 100px;
     font-size: 15px;
     /* text-shadow: 0.5px 0.5px rgb(41, 34, 34, 0.3); */
 }
 
+/* DONT TOUCH MINIHEROTEXT */
+
 .collectionname  {
+    display: inline-block;
     position: relative;
     font-size: 23px;
-    margin: 40px 0px 90px 46px;
     color: #ffffff;
-    z-index: 1;
+    margin: 60px 0px 0px 50px;
+}
+
+.trending {
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0 0 0 800px;
 }
 
 .productname {
@@ -317,7 +330,7 @@ footer a {
 .productname .description {
     text-justify: distribute-all-lines;
     text-align: center;
-    position: relative;
+    /* position: relative; */
 }
    
 
@@ -432,20 +445,28 @@ font-size: 20px;
 }
 
 /* mobile */
-@media (max-width: 420px) {
-
-    *{
-        position: relative;
+@media (max-width: 500px) {
+    body {
+        margin: 0;
+        /* overflow: hidden; */
     }
     .popcontainer {
         visibility: hidden;
     }
     .navContainer {
-        width: 100vh;
-        height: 30px;
+      
     }
     .herobox {
-        background-size: contain;
-        background-repeat: no-repeat;
+        position: relative;
+        
     }
+
+    .herotext {
+        position: relative;
+        width: 100vh;
+    }
+    .
+    .miniherotext {
+        width: 40px;
+    } 
 }
