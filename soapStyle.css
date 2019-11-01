@@ -1,11 +1,12 @@
 * {
     font-family: "Lao Sangam MN", Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-    /* outline: 1px solid; */
+    /* outline: 1px dotted; */
 }
  
 body {
     overflow-x: auto;
+    width:100vw;
 }
 
 /* Mailing list popup and animation */
@@ -17,7 +18,7 @@ body {
 .popup {
     position: relative;
     /* top: 200px; */
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     text-align: center;
 }
@@ -81,10 +82,9 @@ button:focus{
 
 }
 
-
 @keyframes drop {
     0% { opacity: 0}
-    70% { transform: translateY(700px)};
+    70% { transform: translateY(700px)}
     100% { transform: translateY(50px); opacity: 0.8;}
 }
 
@@ -122,7 +122,7 @@ nav a {
     font-weight: 100;
     letter-spacing: 0.3px;
     text-decoration-color: #ffffff;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 
@@ -151,7 +151,8 @@ nav a {
 
 
 nav a:hover {
-    text-decoration-color: #707070;
+    text-decoration: underline solid #707070;
+    text-decoration-color: ;
     /* font-size: 13px; */
 }
 
@@ -161,19 +162,24 @@ nav a:hover {
 .herobox {
     display: flex;
     background-image: url(main-img/hero-lavender-array.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
+
+    height: 600px;
+    background-size: 100%;
+    background-position: 50% 50%;
+    object-fit: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    justify-content:center;
+    align-items:center;
 }
 
 .box {
     display: flex;
     flex-direction: column;
     background-image: url(main-img/purplepetals1.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
+    /* background-repeat: no-repeat; */
+    width: auto;
+    height: auto;
 
 }
 
@@ -185,7 +191,7 @@ nav a:hover {
     justify-content: space-evenly;
     /* outline: 2px solid black; */
     color: #FFFFFF;
-    height: 300px;
+    height: 600px;
     /* padding-top: 150px; */
     
     /* outline: 2px solid black; */
@@ -202,26 +208,30 @@ nav a:hover {
     outline: 2px solid #ffffff;
 }
 
-
 .africansoap {
+    /* position: relative; */
     background-image: url(main-img/african-soap.jpg);
-    height: 400px;
+    height: 600px;
     /* margin: 20px; */
-    padding: 80px;
+    padding: 20px;
+    background-position: 50% 50%;
+    object-fit: cover;
     background-size: cover;
-    background-position: center;
+    background-position: auto;
 }
 
 .soapmaker {
     background-image: url(main-img/soapmaker.jpg);
-    height: 400px;
+    height: 600px;
     /* margin: 20px; */
-    padding: 100px;
-    background-size: cover;
-    background-position: center;
+    padding: 50px;
+    background-size: 80%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 .makerbox {
-    height: 500px;
+    height: 600px;
     color: #433E3E;
 }
 
@@ -267,25 +277,27 @@ footer a {
     display: inline-block;
 }
 .herotext {
-    position: relative;
+    /* position: relative; */
+    transform:translate(300px,80px);
     color: #433E3E;
     font-weight: lighter; 
-    flex-direction: row;
+    /* flex-direction: row; */
     height: 70px;
     width: 570px;    
     font-size: 23px;
-    top: 275px;
-    left: 340px;
+    /* top: 275px;
+    left: 340px; */
     }
 /* DONT TOUCH THE HEROTEXT */
 
 .miniherotext {
-    position: relative;
+    /* position: relative; */
+    transform:translate(0px,130px);
     color: #433E3E;
     height: 30px;
     width: 300px;
-    top: 350px;
-    right: 100px;
+    /* top: 350px;
+    right: 100px; */
     font-size: 15px;
     /* text-shadow: 0.5px 0.5px rgb(41, 34, 34, 0.3); */
 }
@@ -298,14 +310,6 @@ footer a {
     font-size: 23px;
     color: #ffffff;
     margin: 60px 0px 0px 50px;
-}
-
-.trending {
-    display: inline-block;
-    position: relative;
-    color: #FFFFFF;
-    font-size: 14px;
-    margin: 0 0 0 800px;
 }
 
 .productname {
@@ -333,34 +337,39 @@ footer a {
     /* position: relative; */
 }
    
-
+.articletitle, .articledescription {
+    /* position: relative; */
+    /* display: inline-block; */
+    color: #433E3E;
+}
 .articletitle {
-        /* display: inline-block; */
-        position: relative;
-        color: #433E3E;
         font-weight: lighter; 
         /* line-height: 150px; */
         font-size: 28px;
-        margin: -40px 20px 70px 50px;
+        margin: 40px 20px 70px 50px;
+        width: 200px;
 }
 
 .articledescription {
-    color: #433E3E;
-    margin: 250px 5px 0px 550px;
-    font-size: 14px;
+    transform: translate(600px, 300px);
+    width: 500px;
+    font-size: 15px;
     text-align: center;
-    text-justify: distribute-all-lines;
-}
+    font-weight: 900;
+    /* overflow-wrap: inherit; */
+    }
 
-.soapmakertitle{
-margin: -40px 400px 0px 15px;
-padding: 10px 0 0 -60px;
-font-size: 20px;
-}
+.soapmakertitle {
+    /* margin: -20px 400px -60px 40px; */
+    padding: 10px 0 0 -60px;
+    font-size: 20px;
+    }
 
 .soapmakerdesc {
-    margin: 30px -40px 0px 250px;
+    position: relative;
+    padding: 20px 80px 0px 350px;
     font-size: 14px;
+    z-index: inherit;
 }
 
 .pedal {
@@ -435,9 +444,10 @@ font-size: 20px;
 
 .search {
     
-    width: 20px;
-    height: 20px;
-    margin: 2px 0 0 0;
+    width: 14px;
+    height: 14px;
+    margin: -1px;
+    padding: 0;
 }
 
 .search:hover {
@@ -445,28 +455,101 @@ font-size: 20px;
 }
 
 /* mobile */
-@media (max-width: 500px) {
+
+@media only screen and (max-width: 500px) {
+
+    * {max-width: 500px;
+        outline: 2px dotted;
+        margin: 0;
+    }
     body {
         margin: 0;
-        /* overflow: hidden; */
     }
     .popcontainer {
         visibility: hidden;
     }
     .navContainer {
-      
-    }
-    .herobox {
-        position: relative;
         
     }
-
-    .herotext {
-        position: relative;
-        width: 100vh;
+    .herobox {
+        background-size: auto;
+        height: 250px;
+        background-position: inherit;
+        /* background-size: contain; */
     }
-    .
+    .africansoap {
+        height: 210px;
+        background-size: cover;
+        text-justify: auto;
+        display: flex;
+        flex-flow: wrap;
+    }
+    .soapmaker {
+        height: 250px;
+    }
+
+    .makerbox {
+        height: 200px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-basis: content;
+        justify-content: space-around;
+        font-size: 10px;
+        transform: translateX(80px);
+        transform: translateY(40px);
+        height: 20px;
+        
+    }
+    
+    footer ul  {
+        list-style-type: none;
+        flex-direction: row wrap;
+        margin: auto 20px;
+    }
+ 
+    /* text styles */
+
+    .herobox {
+
+    }
+    .herotext {
+        width: 60px;
+        font-size: 15px;
+        /* margin: 0 10px 0 0; */
+    }
+
+    .box {
+        height: 400px;
+    }
+
+    .collectionname {
+        text-align: center;
+        font-size: 15px;
+    }
+    
     .miniherotext {
-        width: 40px;
+        position: relative;
+        /* width: 20px; */
+        margin: 0 30px 0 0;
     } 
+
+    .articletitle {
+        font-size: 10px;
+    }
+
+    .articledescription {
+        font-size: 10px;
+        text-align: center;
+        width: 50px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .soapmakerdesc {
+        transform: translateX(-50);
+        padding: 0;
+    }
 }
