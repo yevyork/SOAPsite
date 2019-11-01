@@ -13,7 +13,7 @@
 
 ## Struggles
 
-1. Properly organizing my HTML and CSS. At first I didn't understand why my page looked buggy and things didn't work how they were supposed to.It was a wee bit discouraging, but I powered through it and understood what goes where.
+1. Properly organizing my HTML and CSS. At first I didn't understand why my page looked buggy and things didn't work how they were supposed to. It was a wee bit discouraging, but I powered through it and understood what goes where.
 2. Event Handlers are a pain in the butt. I know they're extremely important but nevertheless, a pain in the butt.
 3. Getting enough sleep during this experience. I am sleep-deprived. I'm even writing this at 1:30am. TGIF though.
 
