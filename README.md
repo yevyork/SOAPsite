@@ -1,7 +1,7 @@
 # SOAPsite
 
 ## The very first website I built from scratch! 
-###### It includes two distinct pages, complete with images from the web- all related to the subject matter on the page.
+#### It includes two distinct pages, complete with images from the web- all related to the subject matter on the page.
 
 ### Before I get into the actual site, I think it's a good idea that as a beginner, I detail what elements of this project were "wins", and what parts I ran into "struggles" with.
 
