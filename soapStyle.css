@@ -191,10 +191,13 @@ nav a:hover {
 
 .vince {
   max-width: 100%;
+  transition: 1s;
 }
 
 .vince:hover {
   outline: 2px solid #ffffff;
+  transform: rotateZ(180deg);
+  transform-origin: center;
 }
 
 .africansoap {
@@ -408,7 +411,8 @@ footer a {
   height: 250px;
 }
 .pic:hover {
-  outline: 3px solid rgb(196, 63, 144, 0.3);
+  /* outline: 3px solid rgb(196, 63, 144, 0.3); */
+  transform: scale(1.2);
 }
 /* magnifying glass */
 
@@ -445,8 +449,7 @@ footer a {
     opacity: 1;
   }
 
-  .navContainer {
-  }
+
 
   .herobox {
     width: 100%;
@@ -607,5 +610,9 @@ footer a {
        width: 40px;
        height: 40px;
    }
-    
+
+   .pic {
+       width: 200px;
+       height: 200px;
+   }
 

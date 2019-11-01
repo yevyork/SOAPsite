@@ -9,3 +9,5 @@ let signUp = document.querySelector('button');
         popup.remove()
         alert("Thanks! Check your inbox and confirm your e-mail address!")
     })
+
+    
