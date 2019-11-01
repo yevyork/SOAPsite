@@ -8,7 +8,7 @@
 ## Wins!
 
 1. The general syntax of HTML and CSS. I found this to be significantly more easier to grasp than the nightmare (presently) of dealing with javaScript syntax. Although HTML and CSS aren't classified as programming languages, they can still provide an enjoyable experience to the user if properly implemented.
-2. I love that I finally understand Flexbox! I could say that I initially struggled with it, but thanks to Maddy, w3schools.com, and my brain (in that particular order), I was able to finally understand the purpose of it and how powerful it is for organizing nearly any part of a well-designed webpage. @anpato also helped :)
+2. I love that I finally understand Flexbox! I could say that I initially struggled with it, but thanks to @maddyrombes, w3schools.com, and my brain (in that particular order), I was able to finally understand the purpose of it and how powerful it is for organizing nearly any part of a well-designed webpage. @anpato also helped :)
 3. CSS animations. When we went over this topic in class, I thought to myself "Wow, another struggle." I was wrong. They make a lot of sense and are an amazing feature. I look forward to using them again!
 
 ## Struggles
