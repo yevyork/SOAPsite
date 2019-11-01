@@ -18,6 +18,6 @@
 3. Getting enough sleep during this experience. I am sleep-deprived. I'm even writing this at 1:30am. TGIF though.
 
 ## Inspiration
-###### I like sneakers and I use an app called GOAT to check prices on exclusive pairs of shoes sometimes. Their layout is simple yet appealing. I love the minimalistic approach and how everything is made up of rectangles. The contrastic colors between sections are what gives the site it's vibe. I figured I couldn't go wrong with using GOAT.com to model my first project. To be frank, I also thought it was going to be more-or-less a simpler task. I was wrong. 
+#### I like sneakers and I use an app called GOAT to check prices on exclusive pairs of shoes sometimes. Their layout is simple yet appealing. I love the minimalistic approach and how everything is made up of rectangles. The contrastic colors between sections are what gives the site it's vibe. I figured I couldn't go wrong with using GOAT.com to model my first project. To be frank, I also thought it was going to be more-or-less a simpler task. I was wrong. 
 
 ### Let's take a look at my mock-up!
