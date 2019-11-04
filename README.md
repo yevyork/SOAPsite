@@ -38,7 +38,7 @@
 
 * The mobile versions look approximately the same- just wanted to avoid taking up extra space on this doc. As minimalistic as I wanted to be, I still ended up making this a very thorough mock-up. In fact, I really enjoyed using Adobe XD- highly recommend it to anyone who will be plotting out ideas for a website. 
 
-* Update!: I made a gif of the site: (https://github.com/yevyork/SOAPsite/blob/master/SOAPsite20fps.gif
+* Update!: I made a gif of the site: [GIF](https://github.com/yevyork/SOAPsite/blob/master/SOAPsite20fps.gif)
 
 * I had a lot of fun making this come to life. I was told that I would learn a lot in the process, and I did- not just about putting code together, but about myself as well.
 
